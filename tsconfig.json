@@ -46,9 +46,7 @@
         "includeVersion": true,
         "githubPages": true,
         "cleanOutputDir": true,
-        "exclude": "**/*/store/*.ts",
-        "plugin": ["typedoc-theme-hierarchy"],
-        "theme": "hierarchy"
+        "exclude": "**/*/store/*.ts"
     },
 
     "references": [
