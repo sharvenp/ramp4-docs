@@ -3,20 +3,7 @@
     "version": "4.2.0-beta",
     "type": "module",
     "scripts": {
-        "dev": "vite",
-        "dev-http": "vite --https=false",
-        "launch": "vite --no-open",
-        "build": "vite build",
-        "preview": "vite preview --port 5050",
-        "test:e2e": "start-server-and-test preview http://127.0.0.1:5050/ 'cypress open'",
-        "test:e2e:ci": "start-server-and-test preview http://127.0.0.1:5050/ 'cypress run'",
-        "test:unit": "cypress open-ct",
-        "test:unit:ci": "cypress run-ct --quiet --reporter spec",
-        "typecheck": "vue-tsc --noEmit",
-        "formatcheck": "prettier . -c",
-        "lintcheck": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts",
-        "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix",
-        "format": "prettier .  --write"
+        "build:docs": "npx typedoc"
     },
     "dependencies": {
         "@arcgis/core": "4.26.5",
@@ -98,7 +85,7 @@
         "sass": "^1.50.0",
         "start-server-and-test": "^1.14.0",
         "tailwindcss": "^3.0.23",
-        "typedoc": "^0.22.14",
+        "typedoc": "^0.22.18",
         "typescript": "^4.6.4",
         "vite": "^4.1.4",
         "vite-plugin-mkcert": "^1.13.3",

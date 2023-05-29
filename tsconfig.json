@@ -10,6 +10,22 @@
         "pretty": true
     },
 
+    "typedocOptions": {
+        "entryPoints": [
+            "./src/main.ts",
+            "./src/api",
+            "./src/directives",
+            "./src/geo",
+            "./src/lang"
+        ],
+        "out": "typedocs",
+        "entryPointStrategy": "expand",
+        "readme": "./README",
+        "includeVersion": true,
+        "githubPages": true,
+        "cleanOutputDir": true
+    },
+
     "references": [
         {
             "path": "./tsconfig.vite-config.json"
