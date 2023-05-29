@@ -16,7 +16,8 @@
             "./src/api",
             "./src/directives",
             "./src/geo",
-            "./src/lang"
+            "./src/lang",
+            "./src/fixtures/*/api"
         ],
         "out": "docs",
         "entryPointStrategy": "expand",
