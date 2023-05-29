@@ -40,7 +40,7 @@
             "./src/geo",
             "./src/lang"
         ],
-        "out": "docs2",
+        "out": "docs",
         "entryPointStrategy": "expand",
         "readme": "./README.md",
         "includeVersion": true,
