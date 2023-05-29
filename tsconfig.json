@@ -47,7 +47,8 @@
         "githubPages": true,
         "cleanOutputDir": true,
         "exclude": "**/*/store/*.ts",
-        "plugin": "typedoc-plugin-markdown"
+        "plugin": ["typedoc-theme-hierarchy"],
+        "theme": "hierarchy"
     },
 
     "references": [
