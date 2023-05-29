@@ -1,4 +1,4 @@
-# build.yml file for GitHub Actions
+# deploy.yml file for GitHub Actions
 name: Deploy Docs
 
 on: [push, pull_request]
