@@ -46,7 +46,8 @@
         "includeVersion": true,
         "githubPages": true,
         "cleanOutputDir": true,
-        "exclude": "**/*/store/*.ts"
+        "exclude": "**/*/store/*.ts",
+        "plugin": "typedoc-plugin-markdown"
     },
 
     "references": [
