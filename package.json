@@ -3,7 +3,8 @@
     "version": "4.2.0-beta",
     "type": "module",
     "scripts": {
-        "build:docs": "npx typedoc"
+        "build:ts-docs": "npx typedoc",
+        "build:vite-docs": "npx typedoc"
     },
     "dependencies": {
         "@arcgis/core": "4.26.5",
@@ -89,6 +90,7 @@
         "typescript": "^4.6.4",
         "vite": "^4.1.4",
         "vite-plugin-mkcert": "^1.13.3",
+        "vitepress": "^1.0.0-beta.1",
         "vue-tsc": "^1.2.0"
     }
 }
