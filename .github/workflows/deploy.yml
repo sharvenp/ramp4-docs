@@ -33,8 +33,9 @@ jobs:
             - name: Create docsite directory
               run: |
                   mkdir docsite
-                  mv ts-docs docsite
-                  mv vite-docs docsite
+                  mkdir docsite/api-tech-docs
+                  mv ts-docs/* docsite/api-tech-docs
+                  mv vite-docs/* docsite
 
             - name: Deploy 🚀
               uses: JamesIves/github-pages-deploy-action@4.1.4
