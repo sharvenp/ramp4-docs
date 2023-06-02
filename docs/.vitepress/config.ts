@@ -23,7 +23,7 @@ export default {
         {
           text: 'Overview',
           link: 'toc',
-          activeMatch: '/' },
+        },
         {
           text: 'API Reference',
           link: 'https://sharvenp.github.io/ramp4-docs/api-tech-docs',
