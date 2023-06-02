@@ -4,7 +4,7 @@
     "type": "module",
     "scripts": {
         "build:ts-docs": "npx typedoc",
-        "build:vite-docs": "npx typedoc"
+        "build:vite-docs": "vitepress build docs"
     },
     "dependencies": {
         "@arcgis/core": "4.26.5",

@@ -40,7 +40,7 @@
             "./src/geo",
             "./src/lang"
         ],
-        "out": "docs",
+        "out": "ts-docs",
         "entryPointStrategy": "expand",
         "readme": "./README.md",
         "includeVersion": true,
