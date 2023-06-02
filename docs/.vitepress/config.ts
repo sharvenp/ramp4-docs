@@ -1,8 +1,8 @@
 import { version } from '../../package.json';
 
 export default {
-    title: 'Reusable Accessible Mapping Platform Documentation',
-    description: "Reusable Accessible Mapping Platform documentation",
+    title: 'R4MP',
+    description: "Reusable Accessible Mapping Platform 4.0 documentation",
     lang: 'en-CA',
     base: '/ramp4-docs/',
     srcDir: '../docs',
@@ -11,7 +11,7 @@ export default {
       lineNumbers: true
     },
     themeConfig: {
-      logo: '../assets/logo.svg',
+      logo: 'logo.svg',
       lastUpdatedText: 'Last Updated',
       search: {
         provider: 'local'
@@ -36,7 +36,7 @@ export default {
               link: 'https://github.com/ramp4-pcar4/ramp4-pcar4/releases'
             },
             {
-              text: 'Past Version',
+              text: 'Past Version (TODO)',
               link: '#'
             },
           ]

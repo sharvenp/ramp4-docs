@@ -2,12 +2,13 @@
 layout: home
 
 title: R4MP
-titleTemplate: Reusable Accessible Mapping Platform v4.0
+titleTemplate: Documentation
 
 hero:
   name: R4MP
-  text: Documentation
-  tagline: The Reusable Accessible Mapping Platform, fourth major version
+  text: Reusable Accessible Mapping Platform v4.0
+  tagline: Documentation
+  image: logo.svg
   actions:
     - theme: brand
       text: Get Started
