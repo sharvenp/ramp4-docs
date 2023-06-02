@@ -25,12 +25,12 @@ jobs:
               run: npm ci
 
             - name: Generate TypeDoc
-              run: npx typedoc
+              run: npm run build:ts-docs
 
             - name: Generate VitePress
-              run: vitepress build docs
+              run: npm run build:vite-docs
 
-            - name: Create site dir
+            - name: Create docsite directory
               run: |
                   mkdir docsite
                   mv ts-docs docsite
