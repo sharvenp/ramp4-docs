@@ -8,7 +8,7 @@ hero:
   name: R4MP
   text: Reusable Accessible Mapping Platform v4.0
   tagline: Documentation
-  image: logo.svg
+  image: ../../assets/logo.svg
   actions:
     - theme: brand
       text: Get Started
