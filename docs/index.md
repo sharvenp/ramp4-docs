@@ -6,9 +6,11 @@ titleTemplate: Documentation
 
 hero:
   name: R4MP
-  text: Reusable Accessible Mapping Platform v4.0
+  text: Reusable Accessible Mapping Platform 4.0
   tagline: Documentation
-  image: ../../assets/logo.svg
+  image:
+    src: /logo.svg
+    alt: RAMP 4 Logo
   actions:
     - theme: brand
       text: Get Started
@@ -19,4 +21,18 @@ hero:
     - theme: alt
       text: GitHub
       link: https://github.com/ramp4-pcar4/ramp4-pcar4
+
+features:
+  - icon: 😀
+    title: Accessible
+    details: Lorem ipsum...
+  - icon: 🎉
+    title: Vite Markdown
+    details: Lorem ipsum...
+  - icon: 🍁
+    title: Emoji
+    details: Lorem ipsum...
+  - icon: 😎
+    title: Stylish and cool
+    details: Lorem ipsum...
 ---
