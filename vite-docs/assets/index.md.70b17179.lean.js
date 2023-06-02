@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as i,O as t}from"./chunks/framework.2560774c.js";const u=JSON.parse('{"title":"Docsite Table Of Contents","description":"","frontmatter":{},"headers":[],"relativePath":"index.md","filePath":"index.md"}'),r={name:"index.md"},o=t("",16),l=[o];function n(s,p,h,c,m,f){return a(),i("div",null,l)}const g=e(r,[["render",n]]);export{u as __pageData,g as default};
