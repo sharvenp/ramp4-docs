@@ -6,7 +6,7 @@ titleTemplate: Documentation
 
 hero:
   name: R4MP
-  text: Reusable Accessible Mapping Platform 4.0
+  text: Reusable Accessible Mapping Platform
   tagline: Documentation
   image:
     src: /logo.svg
